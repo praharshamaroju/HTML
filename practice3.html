@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zomato-Food delivery </title>
+  <style>
+    /* Base Reset & Variables */
+:root {
+  --primary-red: #cb202d;       /* Classic Zomato Red */
+  --dark-red: #a81622;          /* For hover states */
+  --bg-cream: #f8f9fa;          /* Soft background */
+  --text-dark: #1c1c1c;         /* Readable charcoal black */
+  --text-muted: #696969;        /* Secondary paragraph text */
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Okra', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* Header & Navigation Styling */
+header {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 8%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header div {
+  font-size: 2.2rem;
+  font-weight: 800;
+  font-style: italic;
+  color: var(--primary-red);
+  letter-spacing: -1px;
+}
+
+/* Nav Links Grouping */
+header nav, header a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-left: 2rem;
+  transition: color 0.2s ease;
+}
+
+header a:hover {
+  color: var(--primary-red);
+}
+
+/* Main Hero Section Styling */
+main {
+  max-width: 800px;
+  margin: 6rem auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+main div {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-transform: capitalize;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+main p {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  header a {
+    margin: 0 0.75rem;
+  }
+
+  main {
+    margin: 3rem auto;
+  }
+
+  main div {
+    font-size: 2.2rem;
+  }
+
+  main p {
+    font-size: 1.05rem;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+<div> zomato</div>
+<a href="/home">home</a>
+<a href="/about">about</a> 
+<a href="/contact">contact</a>
+
+</header>
+
+<main>
+  <div>
+    order food anywhere
+  </div>
+  <p>
+    Better food for
+more people
+For over a decade, we’ve enabled our customers to discover new tastes, delivered right to their doorstep
+  </p>
+ <a href="https://google.com"><img src =" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0iTD7C0BZFEnu5OYvcsp_0YaK9yCaca62zQ&s"</a>
+</main>
+</body>
+</html>
